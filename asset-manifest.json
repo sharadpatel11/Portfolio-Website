@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Portfolio-Website/static/css/main.c898b681.css",
+    "main.js": "/Portfolio-Website/static/js/main.af48448b.js",
+    "static/media/header_image.png": "/Portfolio-Website/static/media/header_image.c36a5f3d67aa38fd5a3e.png",
+    "static/media/Sharad_Patel_Resume.pdf": "/Portfolio-Website/static/media/Sharad_Patel_Resume.f5feca8d5c765852e9a0.pdf",
+    "index.html": "/Portfolio-Website/index.html",
+    "main.c898b681.css.map": "/Portfolio-Website/static/css/main.c898b681.css.map",
+    "main.af48448b.js.map": "/Portfolio-Website/static/js/main.af48448b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c898b681.css",
+    "static/js/main.af48448b.js"
+  ]
+}
