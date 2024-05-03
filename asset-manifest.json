@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Portfolio-Website/static/css/main.a25abf07.css",
-    "main.js": "/Portfolio-Website/static/js/main.af48448b.js",
+    "main.css": "/Portfolio-Website/static/css/main.ccce651f.css",
+    "main.js": "/Portfolio-Website/static/js/main.5f80ef1a.js",
     "static/media/header_image.png": "/Portfolio-Website/static/media/header_image.c36a5f3d67aa38fd5a3e.png",
     "static/media/Sharad_Patel_Resume.pdf": "/Portfolio-Website/static/media/Sharad_Patel_Resume.f5feca8d5c765852e9a0.pdf",
     "index.html": "/Portfolio-Website/index.html",
-    "main.a25abf07.css.map": "/Portfolio-Website/static/css/main.a25abf07.css.map",
-    "main.af48448b.js.map": "/Portfolio-Website/static/js/main.af48448b.js.map"
+    "main.ccce651f.css.map": "/Portfolio-Website/static/css/main.ccce651f.css.map",
+    "main.5f80ef1a.js.map": "/Portfolio-Website/static/js/main.5f80ef1a.js.map"
   },
   "entrypoints": [
-    "static/css/main.a25abf07.css",
-    "static/js/main.af48448b.js"
+    "static/css/main.ccce651f.css",
+    "static/js/main.5f80ef1a.js"
   ]
 }
