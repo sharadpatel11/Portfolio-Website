@@ -29,7 +29,7 @@
     margin-left: 1rem;
     padding: .25rem;
 
-    color: #008080;
+    color: #000;
     text-decoration: underline;
     text-decoration-color: #FEC400;
     cursor: default;
@@ -43,7 +43,7 @@
 
 .sp__navbar-links p {
     font-family: 'Martel Sans', serif;
-    color: #008080;
+    color: #000;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 24px;

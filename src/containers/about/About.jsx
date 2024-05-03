@@ -36,7 +36,7 @@ const About = () => {
       <div className="sp__about-right">
             <div></div>
             <div><h2>About Me</h2></div>
-            <div><p className='slide-fwd-center'>I'm a recent computer science grauate looking for internship/entry-level positions. Throughout my academic journey, I've gained a strong foundation in software engineering and a diverse skill set that includes various programming languages and technologies. I've had the privilege of working on projects that have honed my abilities in software development, data management, and user experience optimization. My goal is to continuously learn and grow in the ever-evolving tech landscape. </p></div>
+            <div><p className='slide-fwd-center'>I'm a recent computer science graduate looking for internship/entry-level positions. Throughout my academic journey, I've gained a strong foundation in software engineering and a diverse skill set that includes various programming languages and technologies. I've had the privilege of working on projects that have honed my abilities in software development, data management, and user experience optimization. My goal is to continuously learn and grow in the ever-evolving tech landscape. </p></div>
             <div></div>
       </div>
     </div>
