@@ -1,5 +1,7 @@
-Portfolio Website 
+<h1>Portfolio Website</h1>
 
-- Created a fully responsive portfolio website using React.js
-- Used UI components and containers
-- Used Figma for UI/UX Design
+<ul>
+  <li>Created a fully responsive portfolio website using React.js</li>
+  <li>Used UI components and containers</li>
+  <li>Used Figma for UI/UX Design</li>
+</ul>
