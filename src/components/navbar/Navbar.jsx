@@ -27,7 +27,7 @@ const Navbar = () => {
             <h2>Welcome</h2>
         </div>
         <div className="sp__navbar-contact">
-          <button type="button">Contact</button>        
+          <button type="button"><a href="#contact">Contact</a></button>        
         </div>
         <div className="sp__navbar-menu">
           {toggleMenu
@@ -38,7 +38,7 @@ const Navbar = () => {
             <div className="sp__navbar-menu_container scale-up-center">
               <div className="sp__navbar-menu_container-links">
                 <Menu />
-                <button type="button">Contact Us</button>
+                <button type="button"><a href="#contact">Contact</a></button>
               </div>
             </div>
           )}

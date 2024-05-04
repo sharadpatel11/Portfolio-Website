@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Maitree:wght@200;300;400;500;600;700&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.sp__contact {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.sp__contact-left {
+    width: 100%;
+    flex: 1;
+    background-image: url(../../Assets/contact_image.png);
+    background-size: 100%;
+    height: 750px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding: 2rem;
+}
+
+.sp__contact-left h3 {
+    flex: 1;
+    font-family: "Maitree", sans-serif;
+    font-size: 36px;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.sp__contact-left p {
+    flex: 1;
+    font-family: "Maitree", sans-serif;
+    font-size: 20px;
+    padding-top: .5rem;
+    text-align: center;
+}
+
+.sp__contact-icons {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 8rem;
+}
+
+.sp__contact-icons__top {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sp__contact-icons__bottom {
+    padding-top: 2rem;
+    flex: 1;
+}
+
+.sp__contact-icons p {
+    width: 150px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.sp__contact-icon {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.sp__contact-right {
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: black;
+    background-size: 100% 100%;
+    color: white;
+    padding: 2rem;
+    height: 750px;
+}
+
+.sp__contact-right h3 {
+    flex: 1;
+    font-family: "Maitree", sans-serif;
+    font-size: 36px;
+    padding: 2rem;
+    text-align: center;
+
+    
+    letter-spacing: .05rem;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #FEC400;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
+}
+
+.sp__contact-right__inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.sp__contact-right__input {
+    margin: 1.5rem;
+}
+
+.sp__contact-right__input h5 {
+    margin: 1rem 0;
+    font-family: "Maitree", sans-serif;
+    font-size: 20px;
+}
+
+.sp__contact-right__input input {
+    flex: 2;
+    width: 100%;
+    min-height: 35px;
+    font-family: "Maitree", sans-serif;
+    font-size: 16px;
+    line-height: 27px;
+    background: var(--color-footer);
+    border: 2px solid #008080;
+    padding: 0 1rem;
+    outline: none;
+    color: white;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.sp__contact-right__input .message {
+    min-height: 100px;
+}
+
+.sp__contact-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.sp__contact-right button {
+    align-self: center;
+    margin: 2rem;
+
+    margin: 25px 0;
+    padding: 0.5rem 1rem;
+    color: #000000;
+    background: #FEC400;
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 25px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 79.5px;
+}
+
+@media screen  and (max-width: 900px) {
+    .sp__contact {
+        flex-direction: column;
+    }
+
+    .sp__contact-left {
+        min-height: 900px;
+        background-image: url(../../Assets/contact_image2.png);
+        background-size: 100% 100%;
+    }
+
+    .sp__contact-right {
+        min-height: 750px;
+    }
+
+    .sp__contact-left h3{
+        font-size: 24px;
+    }
+
+    .sp__contact-left__description {
+        font-size: 16px;
+    }
+
+    .sp__contact-icons__top p {
+        width: 100px;
+    }
+}
+
+@media screen  and (max-width: 450px) {
+    .sp__contact-left {
+        min-height: 750px;
+    }
+
+    
+    .sp__contact-right {
+        min-height: 700px;
+    }
+}
