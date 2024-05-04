@@ -73,8 +73,8 @@
 .sp__header-right button {
     margin: 25px 0;
     padding: 0.5rem 1rem;
-    color: #000000;
-    background: #FEC400;
+    color: #fff;
+    background: #008080;
     font-family: var(--font-family);
     font-weight: 900;
     font-size: 20px;

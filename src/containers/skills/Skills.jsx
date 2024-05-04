@@ -101,7 +101,7 @@ const Skills = () => {
                     </ul>
                 </div>
             </div>
-            <div className="sp__skills-element">
+            <div className="sp__skills-element other-concepts">
                 <div className="sp__skills-element__title">
                     <div></div>
                     <h4>Other Concepts</h4>

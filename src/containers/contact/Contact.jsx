@@ -17,9 +17,9 @@ const Contact = () => {
 
     return (
         <div className="sp__contact" id="contact">
-            <div className="sp__contact-left">
-                <h3>Have a Project in mind?</h3>
-                <p className="sp__contact-left__description">Reach out to me. We can make something togehter</p>
+            <div className="sp__contact-left" id="about">
+                <h3>About Me</h3>
+                <p className="sp__contact-left__description">I'm a recent computer science graduate looking for internship/entry-level positions. Throughout my academic journey, I've gained a strong foundation in software engineering and a diverse skill set that includes various programming languages and technologies. I've had the privilege of working on projects that have honed my abilities in software development, data management, and user experience optimization. My goal is to continuously learn and grow in the ever-evolving tech landscape.</p>
                 <div className="sp__contact-icons">
                     <div className="sp__contact-icons__top">
                         <div className="sp__contact-icon">

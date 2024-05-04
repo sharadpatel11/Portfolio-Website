@@ -31,7 +31,8 @@
 
     color: #000;
     text-decoration: underline;
-    text-decoration-color: #FEC400;
+    text-decoration-color: #008080;
+    text-underline-offset: 4px;
     cursor: default;
 }
 
@@ -42,7 +43,6 @@
 }
 
 .sp__navbar-links p {
-    font-family: 'Martel Sans', serif;
     color: #000;
     font-family: var(--font-family);
     font-weight: 500;
@@ -74,7 +74,8 @@
 }
 
 .sp__navbar-links p a:hover{
-    background: #FEC400;
+    background-color: #008080;
+    color: #fff;
     border-radius: 5px;
 }
 
@@ -86,8 +87,8 @@
 
 .sp__navbar-contact button {
     padding: 0.5rem 1rem;
-    color: #000000;
-    background: #FEC400;
+    color: #fff;
+    background: #008080;
     font-family: var(--font-family);
     font-weight: 900;
     font-size: 20px;
@@ -100,8 +101,8 @@
 
 .sp__navbar-menu_container button {
     padding: 0.5rem 1rem;
-    color: #000000;
-    background: #FEC400;
+    color: #fff;
+    background: #008080;
     font-family: var(--font-family);
     font-weight: 900;
     font-size: 20px;
@@ -133,7 +134,8 @@
     
     z-index: 999999;
     text-align: end;
-    background: #C19D23;;
+    background: #C19D23;
+    color: #fff;
     padding: 2rem;
     position: absolute;
     right: 0;
@@ -146,7 +148,7 @@
 
 .sp__navbar-menu_container p {
     margin: 1rem 0;
-    color: #008080;
+    color: #fff;
 }
 
 .sp__navbar-menu_container-links-sign {
@@ -189,7 +191,7 @@
         background: white;
     }
 
-    .sp__navbar-menn_container p {
+    .sp__navbar-menu_container p {
         color: #008080;
     }
 }

@@ -29,14 +29,26 @@
     font-size: 36px;
     padding-top: 2rem;
     text-align: center;
+
+        
+    letter-spacing: .05rem;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-color: #FEC400;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 10px;
 }
 
 .sp__contact-left p {
     flex: 1;
     font-family: "Maitree", sans-serif;
-    font-size: 20px;
+    font-size: 16px;
     padding-top: .5rem;
-    text-align: center;
+    text-align: left;
+}
+
+.sp__contact-left__description {
+    padding: 1rem;
 }
 
 .sp__contact-icons {
@@ -177,6 +189,11 @@
         background-size: 100% 100%;
     }
 
+    .sp__contact-left p {
+        font-size: 14px;
+        text-align: center;
+    }
+
     .sp__contact-right {
         min-height: 750px;
     }
@@ -195,6 +212,12 @@
 }
 
 @media screen  and (max-width: 450px) {
+
+    .sp__contact-left p {
+        font-size: 12px;
+        text-align: center;
+    }
+
     .sp__contact-left {
         min-height: 750px;
     }

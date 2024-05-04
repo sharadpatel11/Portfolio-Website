@@ -157,6 +157,7 @@
 @media screen  and (max-width: 850px) { 
     .sp__skills-lists {
         flex-direction: column;
+        padding-bottom: 1rem;
     }
 
     .sp__skills-element {
@@ -165,6 +166,25 @@
 
     .sp__skills-element__content li div {
         width: 450px;
+    }
+
+    .other-concepts {
+        display: none;
+    }
+}
+
+@media screen  and (max-width: 550px) {
+    .sp__skills-title {
+        font-size: 24px;
+    }
+
+    .sp__skills-element__title h4 {
+        font-size: 20px;
+    }
+
+    .sp__skills-element__content li div {
+        width: 400px;
+        font-size: 10px;
     }
 }
 
@@ -178,7 +198,7 @@
     }
 
     .sp__skills-element__content li div {
-        width: 260px;
+        width: 300px;
         font-size: 10px;
     }
 }
