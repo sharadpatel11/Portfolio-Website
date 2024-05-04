@@ -9,5 +9,5 @@
 
 <br><br>
 <h2>Website Landing Page</h2>
-<img src="./src/Assets/Snapshot.png" width="500">
+<img src="./src/Assets/Snapshot.PNG">
 <br><br>
