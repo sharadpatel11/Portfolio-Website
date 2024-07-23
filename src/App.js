@@ -1,4 +1,5 @@
 import './App.css';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { Navbar, Projects, Footer } from './components';
 import { Header, Skills, Contact } from './containers';
 
@@ -12,6 +13,7 @@ function App() {
         <Skills />
         <Contact />
         <Footer />
+        <SpeedInsights />
       </div>
     </div>
   );
