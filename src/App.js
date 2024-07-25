@@ -8,9 +8,13 @@ function App() {
   return (
     <div className="sp">
       <div>
-        <Navbar />
-        <Header />
-        <Projects />
+        <div className="scale-in-top">
+          <Navbar />
+          <Header />
+        </div>
+        <div className="bounce-in-left">
+          <Projects />
+        </div>
         <Skills />
         <Contact />
         <Footer />
