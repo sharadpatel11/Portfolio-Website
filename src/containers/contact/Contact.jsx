@@ -44,15 +44,15 @@ const Contact = () => {
                 <form id="myForm" className="sp__contact-right__inputs">
                     <div className="sp__contact-right__input">
                         <h5>Your Name</h5>
-                        <input type="text" name="from_name" placeholder="Enter Your Full Name" />
+                        <input type="text" name="from_name" placeholder="Enter Your Full Name" autocomplete="off"/>
                     </div>
                     <div className="sp__contact-right__input">
                         <h5>Email</h5>
-                        <input type="email" name="email_from" placeholder="Enter Your Email Address" />
+                        <input type="email" name="email_from" placeholder="Enter Your Email Address" autocomplete="off"/>
                     </div>
                     <div className="sp__contact-right__input">
                         <h5>Message</h5>
-                        <input className="message" name="email_message" type="text" placeholder="Type any message here" />
+                        <input className="message" name="email_message" type="text" placeholder="Type any message here" autocomplete="off"/>
                     </div>
                     <button type="submit" >Send Message</button>
                 </form>
